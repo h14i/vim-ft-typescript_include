@@ -1,10 +1,10 @@
 " after/ftplugin/typescript/include.vim
 " author : h14i <hayato.tsukagoshi@gmail.com>
 " license: public domain
-if exists('b:did_ftplugin_typescript_include') && b:did_ftplugin_typescript_include
-  finish
-endif
-let b:did_ftplugin_typescript_include = 1
+" if exists('b:did_ftplugin_typescript_include') && b:did_ftplugin_typescript_include
+"   finish
+" endif
+" let b:did_ftplugin_typescript_include = 1
 
 let s:cpo = &cpo
 set cpo&vim
