@@ -11,8 +11,7 @@ set cpo&vim
 
 " '.js' is also to be included?
 setlocal suffixesadd=.ts
-" let &l:include = '^\/\/\/\s*<\s*reference\s\+path='
-setlocal include=^\/\/\/\s*<\s*reference\s\+path=
+let &l:include = '^\/\/\/\s*<\s*reference\s\+path='
 
 if exists('b:undo_ftplugin')
   let b:undo_ftplugin = ' | ' . b:undo_ftplugin
