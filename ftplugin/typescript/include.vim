@@ -1,4 +1,4 @@
-" after/ftplugin/typescript/include.vim
+" ftplugin/typescript/include.vim
 " author : h14i <hayato.tsukagoshi@gmail.com>
 " license: public domain
 let s:cpo = &cpo
