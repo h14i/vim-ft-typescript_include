@@ -6,12 +6,9 @@ set cpo&vim
 
 " TODO:
 "   - consider the path delimiter (windows).
-"   - 'require' statement.
-"   - 'import' statement.
 
-" '.js' is also to be included?
-setlocal suffixesadd=.ts
-let &l:include = '^\/\/\/\s*<\s*reference\s\+path='
+setlocal suffixesadd=.ts,.js
+let &l:include = '^\(\/\/\/\s*<\s*reference\s\+path=\|\s*import\s\+\h\w*\s*=\s*require\)'
 
 if exists('b:undo_ftplugin')
   let b:undo_ftplugin = ' | ' . b:undo_ftplugin
